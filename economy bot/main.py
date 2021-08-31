@@ -119,4 +119,5 @@ async def deposit_error(ctx,error):
     if isinstance(error,commands.CommandOnCooldown):
         await ctx.send(embed=error_embed(f"❌ Please wait **{error.retry_after:.2f}** seconds before trying again."))
 
+add_users.start()
 bot.run("token-here")
