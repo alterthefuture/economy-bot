@@ -1,4 +1,3 @@
 # economy-bot
-made by - ritz#8888
-
+made by - playedyabtch
 Advanced economy bot that uses a database to track peoples money
